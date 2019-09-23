@@ -1,0 +1,76 @@
+.ccompliance {
+  z-index: 99999;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(35, 122, 252);
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.3em;
+  padding: .7em 1.5em;
+  border: none;
+  box-sizing: border-box;
+}
+.ccompliance__content {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+.ccompliance__text {
+  flex: 1;
+  margin-bottom: 1em;
+}
+.ccompliance__text a {
+  color: #fff;
+  opacity: .8;
+  text-decoration: underline;
+}
+.ccompliance__text a:hover {
+  opacity: 1;
+  background: transparent;
+}
+.ccompliance__button button {
+  display: block;
+  margin: 0 auto;
+  padding: .5em 1.4em;
+  font-weight: 700;
+  font-size: .9em;
+  text-align: center;
+  white-space: nowrap;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  width: 100%;
+  min-width: 140px;
+}
+
+@media (min-width: 500px) {
+  .ccompliance {
+    padding: .8em 1em;
+  }
+  .ccompliance__content {
+    flex-direction: row;
+  }
+  .ccompliance__text  {
+    margin-bottom: 0;
+    padding-right: 15px;
+  }
+  .ccompliance__button button {
+    width: auto;
+    min-width: inherit;
+  }
+}
+
+@media (min-width: 767px) {
+  .ccompliance {
+    font-size: 16px;
+    padding: 1em 3em;
+    line-height: 1.5em;
+  }
+  .ccompliance__button button {
+    min-width: 140px;
+    padding: .6em 1.4em;
+  }
+}

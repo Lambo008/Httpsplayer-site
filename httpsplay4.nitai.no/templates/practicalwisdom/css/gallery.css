@@ -1,0 +1,75 @@
+div.ja-gallery {
+	margin-top: 5px;
+	width: 170px;
+}
+
+div.ja_slider_img_full {
+	background: url(../images/stripe1.gif) #3A4F3A;
+	text-align: center;
+	height: 130px;
+}
+
+#ja-scrollgallery_1,
+#ja-scrollgallery_2 {
+	position:absolute;
+	top: 5px;
+	left: 0;
+	width: 100%;
+}
+
+#ja-gallery-navigation {
+	background: url(../images/stripe1.gif) #3A4F3A;
+}
+
+#ja-gallery-navigation-left,
+#ja-gallery-navigation-right {
+	margin: 0;
+	padding: 0;
+	float: left;
+	text-align: center;
+	width: 10px;
+	height: 25px;
+}
+
+#ja-gallery-navigation-left {
+	width: 20px;
+}
+
+#ja-gallery-navigation-left img {
+	padding-top: 5px;
+}
+
+#ja-gallery-navigation-right img {
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+div#ja-gallery-navigation-center {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+div#ja-gallery-navigation-center ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div#ja-gallery-navigation-center ul li.jasg-element {
+	display: none;
+}
+
+div#tooltip {
+  padding: 3px;
+  border: 1px solid #666;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  display: none;
+  background: #999;
+  color: #FFF;
+  font: bold 9px Verdana, Arial, Helvetica, sans-serif;
+  text-align: left;
+  position: absolute;
+  z-index: 1000;
+}
